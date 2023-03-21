@@ -1,0 +1,20 @@
+cd - acessar pasta
+ls - ve conteudo 
+mkdir - criar pasta 
+rm - deletar aqrquivo (-rf para deletar diretorio e arquivos)
+rmdir - deletar somenta pastas 
+touch - criar arquivos 
+cat - leitura de arquivos
+less - leitura de arquivo (formato de livro - para sair clique Q -- se usar o / poderar fazer busca)
+head - mostra os 10 primeiras linhas (com o -<numero> define a quantidade de linhas)
+tail - mostra os 10 ultimas linhas (mesma regra do anterior)
+grep <'palavra'> <arquivo> - ele faz uma busca direto no terminal (se utilizar -i ele ignora a ortografia -- utilizar -v ele mostra tudo menos a palavra ou frase -- -n mostra a linha que aparece -- -c quantas vezes aparece)
+wc <arquivo> - mostra quantidade de linhas / palavras / caracteres
+man <comando> - manual do comando
+whatis <comando> - o que o ocmanda faz 
+apropos <oq quer fazer> - mostra comandos que est~ao relacionandos com oq vc quer (ENGLISH, pls)
+sort < (arquivo_a_ser_ordenado) > (arquivo_salvo) - Ordenador de arquivo
+who - Quem esta usando o sistema
+find - pesquisa arquivos ou diretorios em pastas
+echo - mostrar no terminal
+curl - baixar coisa de servidor 

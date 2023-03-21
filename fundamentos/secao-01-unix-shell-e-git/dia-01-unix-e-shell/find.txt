@@ -1,0 +1,26 @@
+# Para listar todos os arquivos que terminam em .txt.
+find . -name "*.txt"
+
+# Para localizar todos os diretórios.
+find . -type d
+
+# Para localizar todos os arquivos.
+find . -type f
+
+# Para localizar tanto arquivos quanto diretórios que comecem
+# por algum trecho.
+find ./teste -name "exemplo*"
+# Resultado
+./teste/exemplo.txt
+./teste/exemplo
+
+# Para localizar somente arquivos que comecem por algum trecho.
+find ./teste -type f -name "exemplo*"
+# Resultado
+./teste/exemplo.txt
+
+# Para localizar somente diretórios que comecem por algum trecho.
+find ./teste -type d -name "exemplo*"
+# Resultado
+./teste/exemplo
+
