@@ -4,3 +4,4 @@ No terceiro dia do curso, tivemos um aprofundamento no GIT, mas principalmente n
 
 Na imagem abaixo esta os comandos visto na aula:
 
+![](https://github.com/FilipeMHottis/trybe-exercicios/blob/dia3/fundamentos/secao-01-unix-shell-e-git/dia-03-git-e-github-entendendo-comandos/Comandos%20git%20e%20github.jpeg?raw=true)
