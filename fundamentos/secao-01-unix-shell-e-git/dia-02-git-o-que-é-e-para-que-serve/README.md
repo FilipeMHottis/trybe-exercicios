@@ -4,5 +4,5 @@ No segundo dia do curso, aprendi sobre a ferramenta GIT e seus super poderes de 
 
 Os comandos git, estão na imagem abaixo.
 
-![](/home/lipehottis/Documentos/Trybe/Comandos_Unix/Git_COMANDOS.jpg)
+![](https://github.com/FilipeMHottis/trybe-exercicios/blob/dia02/fundamentos/secao-01-unix-shell-e-git/dia-02-git-o-que-%C3%A9-e-para-que-serve/Git_COMANDOS.jpg?raw=true)
 
