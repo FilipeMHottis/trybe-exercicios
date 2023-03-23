@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;
+
+}
+
+li:hover{
+    background-color: violet;
+}
+
+li:active{
+    font-family: fantasy;
+    background-color: blueviolet;
+}
