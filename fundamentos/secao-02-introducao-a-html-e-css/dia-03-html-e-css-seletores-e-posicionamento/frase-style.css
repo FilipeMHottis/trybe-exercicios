@@ -1,0 +1,39 @@
+/* Amarelo - Itens da Lista */
+ol li{
+    background-color: yellow;
+}
+
+/* Pares */
+ol li:nth-child(even){ 
+    background-color: green;
+}
+
+/* Impares */
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+/* Titulo */
+h1, h2 {
+    color: red;
+}
+h1 em, h2 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+/* Lista */
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+
+/* Linguaem de Programação */
+#linguagens li:nth-child(1){
+    background-color: blue;
+}
+.rosa {
+    background-color: pink;
+}
