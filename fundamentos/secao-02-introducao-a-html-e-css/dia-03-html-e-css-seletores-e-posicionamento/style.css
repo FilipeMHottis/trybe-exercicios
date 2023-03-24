@@ -1,0 +1,30 @@
+div:hover {
+    border: 6px solid black;
+}
+
+#roxo:hover{
+    background-color: purple;
+    color: white;
+}
+
+#preto:hover{
+    background-color: black;
+    color: white;
+}
+
+#cinza:hover{
+    background-color: #808080;
+}
+
+#violeta-escuro:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+#violeta:hover{
+    background-color: violet;
+}
+
+h3{
+    font-style: italic;
+}
