@@ -11,6 +11,7 @@
 
 // &&   ===     and
 // ||   ===     or
+//  !   ===     diferente
 // ==   ===     igual
 // ===  ===     exatamente igual 
 
