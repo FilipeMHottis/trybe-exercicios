@@ -6,6 +6,6 @@ menu.push('Projetos');
 console.log(indexOfPortfolio);
 console.log(menuServices);
 
-for (let index = 1; index < menu.length; index += 1) {
+for (let index = 0; index < menu.length; index += 1) {
     console.log(index + ' - ' + menu[index]); 
 }
