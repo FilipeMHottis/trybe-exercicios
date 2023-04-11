@@ -5,6 +5,7 @@ const h1 = document.createElement('h1');
 const h3 = document.createElement('h3');
 const p = document.createElement('p');
 const img = document.createElement('img');
+const ul = document.createElement('ul');
 const body = document.getElementsByTagName('body')[0];
 
 // Function for text 
@@ -42,3 +43,12 @@ elemnetText('RECOMPENSADORA!', sectionRight, mainContent);
 img.src = 'https://picsum.photos/200';
 img.className = 'small-image';
 document.querySelector('.left-content').appendChild(img);
+
+// Stage 08
+const lista = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+for (index = 0; index < 10; index += 1) {
+    const item = document.createElement('li');
+    item.innerText = lista[index];
+    ul.appendChild(item);
+}
+document.querySelector('.right-content').appendChild(ul);
