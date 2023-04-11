@@ -29,11 +29,16 @@ elemnetText('Trybe é increvel de vdd!!! VQV', p, centerContent);
 
 // Stage - 05 and 06
 const mainContent = document.querySelector('.main-content');
-const section1 = document.createElement('section');
-const section2 = document.createElement('section');
+const sectionLeft = document.createElement('section');
+const sectionRight = document.createElement('section');
 
-section1.className = 'left-content';
-section2.className = 'right-content';
+sectionLeft.className = 'left-content';
+sectionRight.className = 'right-content';
 
-elemnetText('Trybe é dificil, porem....!', section1, mainContent);
-elemnetText('RECOMPENSADORA!', section2, mainContent)
+elemnetText('Trybe é dificil, porem....!', sectionLeft, mainContent);
+elemnetText('RECOMPENSADORA!', sectionRight, mainContent);
+
+// Stage 07
+img.src = 'https://picsum.photos/200';
+img.className = 'small-image';
+document.querySelector('.left-content').appendChild(img);
