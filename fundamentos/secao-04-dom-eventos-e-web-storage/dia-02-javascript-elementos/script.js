@@ -24,3 +24,5 @@ body.appendChild(main).className = 'main-content';
 document.querySelector('.main-content').appendChild(section).className = 'center-content';
 
 // Stage - 04
+const centerContent = document.querySelector('.center-content');
+elemnetText('Trybe é increvel de vdd!!! VQV', p, centerContent);
