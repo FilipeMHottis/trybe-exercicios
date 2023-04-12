@@ -2,7 +2,6 @@
 const main = document.createElement('main');
 const section = document.createElement('section');
 const h1 = document.createElement('h1');
-const h3 = document.createElement('h3');
 const p = document.createElement('p');
 const img = document.createElement('img');
 const ul = document.createElement('ul');
@@ -52,3 +51,11 @@ for (index = 0; index < 10; index += 1) {
     ul.appendChild(item);
 }
 document.querySelector('.right-content').appendChild(ul);
+
+// Stage 09
+const offspring = mainContent.childNodes;
+for (let index = 0; index < offspring.length; index += 1) {
+    const h3 = document.createElement('h3');
+    h3.innerText = 'Alguma Coisa';
+    offspring[index].appendChild(h3);
+}
