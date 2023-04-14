@@ -47,8 +47,10 @@ const setLineHeight = () => {
         index.addEventListener('click', () => {
             if (index.innerText === 'normal') {
                 text.style.lineHeight = 'normal';
+                localStorage.setItem('lineHeight', 'normal');
             } else {
                 text.style.lineHeight = Number(index.innerText);
+                localStorage.setItem('lineHeight', JSON.stringify(Number(index.innerHTML)));
             }
         });
     };
@@ -80,6 +82,14 @@ window.onload = () => {
     if (localStorage.getItem('fontSize')) {
         text.style.fontSize  = localStorage.getItem('fontSize');
     };
+    if (localStorage.getItem('lineHeight')) {
+        if (localStorage.getItem('lineHeight') === 'normal') {
+            text.style.lineHeight  = localStorage.getItem('lineHeight');
+        } else {
+            const number =  JSON.parse(localStorage.getItem('lineHeight'));
+            text.style.lineHeight = number;
+        }
+    }; 
     if (localStorage.getItem('fontFamily')) {
         text.style.fontFamily  = localStorage.getItem('fontFamily');
     };
