@@ -1,20 +1,27 @@
-# Trybe
+# Trybe - Área De Testes
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Filipe Marques Hottis](https://www.linkedin.com/in/lipehottis/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀
+Olá e bem-vindo ao meu repositório de exercícios e testes! Aqui é onde eu pratico e aplico o conhecimento que aprendo nas aulas da Trybe.
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
+## Sobre a Trybe
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+A Trybe é uma escola de programação que oferece um programa de formação intensivo e completo em desenvolvimento de software. O programa conta com mais de 1.500 horas de aulas presenciais e online, abordando tópicos como introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web ✅
+## Sobre mim
 
-##### Bloco 1: Introdução - Unix & Shell
+Meu nome é Filipe Marques Hottis, tenho 18 anos e sou um aprendiz em busca de aprimorar meus conhecimentos em programação. Este repositório contém uma variedade de arquivos de exercícios e testes que fiz durante o curso da Trybe, e são uma parte importante do meu aprendizado e prática de programação.
 
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
+Lembre-se de acessar meu [LinkedIn](https://www.linkedin.com/in/lipehottis/) e, principalmente, meu [portfólio](https://filipemhottis.github.io/) para saber mais sobre meu trabalho e projetos!
 
-##### Bloco 2: Git & GitHub
+------
 
-- [ ] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+## Módulos
+
+### Fundamentos
+
+1. Unix, Shell e Git
+2. Introdução à HTML & CSS
+3. Introdução à JavaScript
+4. JavaScript DOM, Eventos e Web Storage
+5. HTML e CSS: Forms, Flexbox e Responsivo
+6. Introdução à JavaScript ES6 e Testes Unitários
+7. Higher Order Functions do JavaScript ES6
