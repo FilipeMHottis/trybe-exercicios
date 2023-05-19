@@ -1,0 +1,21 @@
+{
+  "name": "validador",
+  "version": "1.0.0",
+  "description": "Um validador, recebe como parametro uma string e verifica se passa pelo test desejado",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filipe M Hottis",
+  "license": "ISC",
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.2",
+    "eslint": "^8.41.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "vite": "^4.3.8"
+  }
+}
