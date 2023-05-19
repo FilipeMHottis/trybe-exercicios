@@ -7,7 +7,7 @@ const passwordBotton = document.querySelector('button');
 const displayPassword = document.querySelector('h2');
 
 passwordBotton.addEventListener('click', () => {
-    const password = nanoid();
-    displayPassword.innerHTML = password;
-    copy(password);
+  const password = nanoid();
+  displayPassword.innerHTML = password;
+  copy(password);
 });
