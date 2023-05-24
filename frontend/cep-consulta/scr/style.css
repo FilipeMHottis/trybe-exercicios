@@ -1,0 +1,45 @@
+body, button, input {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+main{
+    width: 42vw;
+}
+
+button {
+    border: 1px black solid;
+    padding: 2.5px;
+}
+
+input {
+    border: 1px black solid;
+    padding: 2.5px;
+}
+
+form {
+    margin: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+
+    gap: 15px;
+}
+
+section p {
+    border: 2px black solid;
+    width: 100%;
+    padding: 12%;
+}
