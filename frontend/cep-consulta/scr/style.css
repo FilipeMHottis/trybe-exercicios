@@ -19,6 +19,7 @@ main{
 button {
     border: 1px black solid;
     padding: 2.5px;
+    margin: 5px;
 }
 
 input {
@@ -39,7 +40,18 @@ section {
 }
 
 section p {
+    display: flex;
+    
     border: 2px black solid;
+    border-radius: 12px;
+    
     width: 100%;
-    padding: 12%;
+    height: 180px;
+    
+    text-align: start;
+}
+
+span {
+    height: 100%;
+    margin: 10px;
 }
